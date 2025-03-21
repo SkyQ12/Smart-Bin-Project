@@ -1,0 +1,480 @@
+[
+  {
+    "ContainingType": "SmartBin.Api.Controllers.AdminController",
+    "Method": "GetBinAdmin",
+    "RelativePath": "Admin/GetBinAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Admins.AdminViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.AdminController",
+    "Method": "GetUserAdmin",
+    "RelativePath": "Admin/GetUserAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Admins.AdminViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.AdminController",
+    "Method": "GetWorkerAdmin",
+    "RelativePath": "Admin/GetWorkerAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Admins.AdminViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.AdminController",
+    "Method": "RegisterNewBinAdmin",
+    "RelativePath": "Admin/RegisterNewBinAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUserAdmin",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Admins.RegisterBinAdminViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.AdminController",
+    "Method": "RegisterNewUserAdmin",
+    "RelativePath": "Admin/RegisterNewUserAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUserAdmin",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Admins.RegisterUserAdminViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.AdminController",
+    "Method": "RegisterNewWorkerAdmin",
+    "RelativePath": "Admin/RegisterNewWorkerAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUserAdmin",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Admins.RegisterWorkerAdminViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinsController",
+    "Method": "CreateNewBin",
+    "RelativePath": "Bins/CreateNewBin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "viewModel",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Bins.AddNewBinViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinsController",
+    "Method": "DeleteBinById",
+    "RelativePath": "Bins/DeleteBinById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "binId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinsController",
+    "Method": "GetAllBins",
+    "RelativePath": "Bins/GetAllBins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Bins.BinViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinsController",
+    "Method": "GetBinById",
+    "RelativePath": "Bins/GetBinById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "binId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Bins.BinViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinsController",
+    "Method": "GetBinsForUser",
+    "RelativePath": "Bins/GetBinsForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Bins.BinForUserViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinsController",
+    "Method": "UpdateBinById",
+    "RelativePath": "Bins/UpdateBinById",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "viewModel",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Bins.UpdateBinViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.BinUnitController",
+    "Method": "GetBinUnitById",
+    "RelativePath": "BinUnit/GetBinUnitById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "binUnitId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmartBin.Infrastructure.Domain.Resources.BinUnits.BinUnitViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.OptimizeRouteController",
+    "Method": "FindBestRoute",
+    "RelativePath": "OptimizeRoute/FindBestRoute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartBin.Api.Controllers.OptimizeRouteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.PointChangeController",
+    "Method": "GetPointChangedHistory",
+    "RelativePath": "PointChange/GetPointChangedHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Points.PointChangeHistoryViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.PointChangeController",
+    "Method": "UpdatePoint",
+    "RelativePath": "PointChange/UpdatePoint",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "point",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Points.UpdatePointViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "User/ChangePassword",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "changePassword",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Users.PasswordChangeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "DeleteUserById",
+    "RelativePath": "User/DeleteUserById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SmartBin.Infrastructure.Domain.Resources.Users.UserViewModel, SmartBin.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "User/GetUserById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Users.UserViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "GetUserByUserName",
+    "RelativePath": "User/GetUserByUserName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Users.UserViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Users.LoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "RegisterNewUser",
+    "RelativePath": "User/RegisterNewUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createNew",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Users.CreateNewUserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.UserController",
+    "Method": "UpdateUserInfomation",
+    "RelativePath": "User/UpdateUserInfomation",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateUserInfo",
+        "Type": "SmartBin.Infrastructure.Domain.Resources.Users.UpdateUserInfoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

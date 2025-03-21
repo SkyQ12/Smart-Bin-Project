@@ -1,0 +1,167 @@
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.exe
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.deps.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.runtimeconfig.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\AutoMapper.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Azure.Core.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Azure.Identity.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.WindowsServices.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\MQTTnet.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Memory.Data.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.ServiceProcess.ServiceController.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.csproj.AssemblyReference.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.AssemblyInfoInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.AssemblyInfo.cs
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.csproj.CoreCompileInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.sourcelink.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.CC4E0804.Up2Date
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\refint\SmartBin.Host.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.genruntimeconfig.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\obj\Debug\net8.0\ref\SmartBin.Host.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Host\bin\Debug\net8.0\appsettings.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.exe
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\appsettings.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.deps.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.runtimeconfig.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Host.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\AutoMapper.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Azure.Core.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Azure.Identity.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.WindowsServices.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\MQTTnet.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Memory.Data.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.ServiceProcess.ServiceController.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.csproj.AssemblyReference.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.GeneratedMSBuildEditorConfig.editorconfig
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.AssemblyInfoInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.AssemblyInfo.cs
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.csproj.CoreCompileInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.CC4E0804.Up2Date
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\refint\SmartBin.Host.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\SmartBin.Host.genruntimeconfig.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Host\obj\Debug\net8.0\ref\SmartBin.Host.dll

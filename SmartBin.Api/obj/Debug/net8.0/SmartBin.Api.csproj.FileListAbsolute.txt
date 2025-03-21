@@ -1,0 +1,583 @@
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\appsettings.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.exe
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.deps.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.runtimeconfig.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.pdb
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfoInputs.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfo.cs
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.CoreCompileInputs.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.SmartBin.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.SmartBin.Api.props
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SmartBin.Api.props
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SmartBin.Api.props
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\scopedcss\bundle\SmartBin.Api.styles.css
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\refint\SmartBin.Api.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.pdb
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.genruntimeconfig.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\ref\SmartBin.Api.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Azure.Core.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Azure.Identity.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Humanizer.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\MQTTnet.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.CodeDom.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.AssemblyReference.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.B1419AE9.Up2Date
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.sourcelink.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\appsettings.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.exe
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.deps.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.runtimeconfig.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Azure.Core.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Azure.Identity.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Humanizer.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\MQTTnet.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.CodeDom.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.AssemblyReference.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfoInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfo.cs
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.CoreCompileInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.sourcelink.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.SmartBin.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.SmartBin.Api.props
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SmartBin.Api.props
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SmartBin.Api.props
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\scopedcss\bundle\SmartBin.Api.styles.css
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.B1419AE9.Up2Date
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\refint\SmartBin.Api.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.genruntimeconfig.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Api\obj\Debug\net8.0\ref\SmartBin.Api.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\appsettings.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.staticwebassets.endpoints.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.exe
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.deps.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.runtimeconfig.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Azure.Core.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Azure.Identity.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Humanizer.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\MQTTnet.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.CodeDom.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Memory.Data.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.AssemblyReference.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfoInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfo.cs
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.CoreCompileInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\scopedcss\bundle\SmartBin.Api.styles.css
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.SmartBin.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.SmartBin.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.SmartBin.Api.props
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SmartBin.Api.props
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SmartBin.Api.props
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.B1419AE9.Up2Date
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\refint\SmartBin.Api.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.genruntimeconfig.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\ref\SmartBin.Api.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.staticwebassets.endpoints.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.exe
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.deps.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.runtimeconfig.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Api.pdb
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\MQTTnet.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.AssemblyInfo.cs
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.sourcelink.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\scopedcss\bundle\SmartBin.Api.styles.css
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.SmartBin.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.SmartBin.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.SmartBin.Api.props
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SmartBin.Api.props
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SmartBin.Api.props
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.B1419AE9.Up2Date
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\refint\SmartBin.Api.dll
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.pdb
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\SmartBin.Api.genruntimeconfig.cache
+C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\ref\SmartBin.Api.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

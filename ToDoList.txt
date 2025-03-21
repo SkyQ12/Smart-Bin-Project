@@ -1,0 +1,25 @@
+Công việc 1/11/2024(đã xong)
++ chỉnh lại Bin, BinUnit(xóa các thuộc tính không cần thiết)
++ chỉnh lại buffer(cho User và Admin)
++ Viết hostworker
+
+Công việc 3/11/2024
++ Test thuật toán GA
++ Đã có tải trọng và khối lượng các xe nhưng chưa có khối lượng rác -> đã xong
++ Xử lý khi khối lượng rác vượt quá tải trọng -> đã xong
++ Xử lý tiến trình thu gom rác tối ưu khi có nhiều xe -> chưa xong
+
+Công việc 5/11/2024:
++ Xử lý thu gom rác cho nhiều xe -> khá ổn
++ Deploy lại docker lên container instance -> đã làm
+
+Công việc 7/11/2024:
++ Xử lý tiến trình thu gom rác, mức độ ưu tiên: tải trọng, quãng đường -> đã làm
++ Tìm hiểu chatbot cho website, chat với admin
++ Tích hợp gửi tin nhắn zalo cho user
+
+Công việc 14/11/2024:
++ Viết api cho thuật toán (bao gồm manual và auto)
++ Twilio: DZUGVYRS4393FATQQJG2DKFA
+
+

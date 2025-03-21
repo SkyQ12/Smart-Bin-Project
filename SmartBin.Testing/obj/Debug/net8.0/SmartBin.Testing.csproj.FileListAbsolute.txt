@@ -1,0 +1,56 @@
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.exe
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.deps.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.runtimeconfig.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.pdb
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\MQTTnet.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.csproj.AssemblyReference.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.AssemblyInfoInputs.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.AssemblyInfo.cs
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.csproj.CoreCompileInputs.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.sourcelink.json
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.8817BDBE.Up2Date
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\refint\SmartBin.Testing.dll
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.pdb
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.genruntimeconfig.cache
+D:\Project\ASP.NET Core\SmartBin.Api\SmartBin.Testing\obj\Debug\net8.0\ref\SmartBin.Testing.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.exe
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.deps.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.runtimeconfig.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\MQTTnet.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.csproj.AssemblyReference.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.AssemblyInfoInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.AssemblyInfo.cs
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.csproj.CoreCompileInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.sourcelink.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.8817BDBE.Up2Date
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\refint\SmartBin.Testing.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.genruntimeconfig.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Testing\obj\Debug\net8.0\ref\SmartBin.Testing.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.exe
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.deps.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.runtimeconfig.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\SmartBin.Testing.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\MQTTnet.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.csproj.AssemblyReference.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.GeneratedMSBuildEditorConfig.editorconfig
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.AssemblyInfoInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.AssemblyInfo.cs
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.csproj.CoreCompileInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.8817BDBE.Up2Date
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\refint\SmartBin.Testing.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\SmartBin.Testing.genruntimeconfig.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Testing\obj\Debug\net8.0\ref\SmartBin.Testing.dll

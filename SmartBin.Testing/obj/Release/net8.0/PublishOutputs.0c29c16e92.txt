@@ -1,0 +1,7 @@
+C:\My Folder\Projects\SimulationGPS\SmartBin.Testing.exe
+C:\My Folder\Projects\SimulationGPS\SmartBin.Testing.dll
+C:\My Folder\Projects\SimulationGPS\SmartBin.Testing.deps.json
+C:\My Folder\Projects\SimulationGPS\SmartBin.Testing.runtimeconfig.json
+C:\My Folder\Projects\SimulationGPS\SmartBin.Testing.pdb
+C:\My Folder\Projects\SimulationGPS\MQTTnet.dll
+C:\My Folder\Projects\SimulationGPS\Newtonsoft.Json.dll

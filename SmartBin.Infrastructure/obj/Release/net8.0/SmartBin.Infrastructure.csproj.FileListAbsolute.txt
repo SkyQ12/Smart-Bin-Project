@@ -1,0 +1,29 @@
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.deps.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.runtimeconfig.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.csproj.AssemblyReference.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.AssemblyInfoInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.AssemblyInfo.cs
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.csproj.CoreCompileInputs.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.sourcelink.json
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\refint\SmartBin.Infrastructure.dll
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.pdb
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.genruntimeconfig.cache
+C:\My Folder\Projects\SmartBinApi\SmartBin.Infrastructure\obj\Release\net8.0\ref\SmartBin.Infrastructure.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.deps.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.runtimeconfig.json
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\bin\Release\net8.0\SmartBin.Infrastructure.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.csproj.AssemblyReference.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.AssemblyInfoInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.AssemblyInfo.cs
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.csproj.CoreCompileInputs.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\refint\SmartBin.Infrastructure.dll
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.pdb
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\SmartBin.Infrastructure.genruntimeconfig.cache
+D:\FABLAB\SmartBinApi-master\SmartBinApi-master\SmartBin.Infrastructure\obj\Release\net8.0\ref\SmartBin.Infrastructure.dll

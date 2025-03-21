@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SmartBin.Host": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
