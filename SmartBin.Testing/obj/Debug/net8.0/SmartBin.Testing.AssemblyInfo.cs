@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartBin.Testing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97da1f4f699d60e974495ab19513274a8eb10a5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartBin.Testing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartBin.Testing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

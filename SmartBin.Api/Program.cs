@@ -13,13 +13,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
         builder =>
-        {
-            /*builder
-            .WithOrigins("localhost", "http://localhost:3003", "http://localhost:3002", "http://localhost:3001", "http://localhost:3000", "http://localhost:3007", "http://localhost:3008", "http://localhost:3009", "http://localhost:3010", "https://web-smart-bin.vercel.app")
-            .AllowAnyMethod()
-            .AllowAnyHeader()
-            .AllowCredentials();*/
-
+        {          
             builder
             .WithOrigins("http://localhost:3003", "http://localhost:3002", "http://localhost:3001", "http://localhost:3000",
                          "http://localhost:3007", "http://localhost:3008", "http://localhost:3009", "http://localhost:3010",
@@ -56,17 +50,6 @@ builder.Services.AddAutoMapper(typeof(ModelToViewModelProfile));
 builder.Services.AddAutoMapper(typeof(ViewModelToModelProfile));
 
 builder.Services.Configure<JwtSetting>(builder.Configuration.GetSection("Jwt"));
-/*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(o =>
-    {
-        o.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = false,
-            ValidateAudience = false,
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-        };
-    });*/
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(o =>
@@ -79,7 +62,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
 
-        // ⚡ Cấu hình hỗ trợ SignalR
         o.Events = new JwtBearerEvents
         {
             OnMessageReceived = context =>
