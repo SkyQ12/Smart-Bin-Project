@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\",
+  "WorkspaceRootPath": "D:\\TEST_SmartBin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE8D6A9F-5FBC-4AFF-96C9-ACFF2351BEC1}|SmartBin.Api\\SmartBin.Api.csproj|d:\\fablab\\smartbinapi-master\\smartbinapi-master\\smartbin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8D6A9F-5FBC-4AFF-96C9-ACFF2351BEC1}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCB295B2-5AE4-4E95-A1D9-2FCBFDB6014F}|SmartBin.Infrastructure\\SmartBin.Infrastructure.csproj|d:\\test_smartbin\\smartbin.infrastructure\\repositories\\bins\\binrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB295B2-5AE4-4E95-A1D9-2FCBFDB6014F}|SmartBin.Infrastructure\\SmartBin.Infrastructure.csproj|solutionrelative:smartbin.infrastructure\\repositories\\bins\\binrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E1DE276-58DB-4965-A7CA-B8CAA8273E8B}|SmartBin.Testing\\SmartBin.Testing.csproj|d:\\fablab\\smartbinapi-master\\smartbinapi-master\\smartbin.testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E1DE276-58DB-4965-A7CA-B8CAA8273E8B}|SmartBin.Testing\\SmartBin.Testing.csproj|solutionrelative:smartbin.testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8D6A9F-5FBC-4AFF-96C9-ACFF2351BEC1}|SmartBin.Api\\SmartBin.Api.csproj|d:\\test_smartbin\\smartbin.api\\hubs\\scadahost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8D6A9F-5FBC-4AFF-96C9-ACFF2351BEC1}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\hubs\\scadahost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB295B2-5AE4-4E95-A1D9-2FCBFDB6014F}|SmartBin.Infrastructure\\SmartBin.Infrastructure.csproj|d:\\test_smartbin\\smartbin.infrastructure\\repositories\\binunits\\binunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB295B2-5AE4-4E95-A1D9-2FCBFDB6014F}|SmartBin.Infrastructure\\SmartBin.Infrastructure.csproj|solutionrelative:smartbin.infrastructure\\repositories\\binunits\\binunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB295B2-5AE4-4E95-A1D9-2FCBFDB6014F}|SmartBin.Infrastructure\\SmartBin.Infrastructure.csproj|d:\\test_smartbin\\smartbin.infrastructure\\repositories\\bins\\ibinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB295B2-5AE4-4E95-A1D9-2FCBFDB6014F}|SmartBin.Infrastructure\\SmartBin.Infrastructure.csproj|solutionrelative:smartbin.infrastructure\\repositories\\bins\\ibinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,37 +25,68 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 271,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Program.cs",
-              "ToolTip": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Api\\Program.cs",
-              "RelativeToolTip": "SmartBin.Api\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BinUnitRepository.cs",
+              "DocumentMoniker": "D:\\TEST_SmartBin\\SmartBin.Infrastructure\\Repositories\\BinUnits\\BinUnitRepository.cs",
+              "RelativeDocumentMoniker": "SmartBin.Infrastructure\\Repositories\\BinUnits\\BinUnitRepository.cs",
+              "ToolTip": "D:\\TEST_SmartBin\\SmartBin.Infrastructure\\Repositories\\BinUnits\\BinUnitRepository.cs",
+              "RelativeToolTip": "SmartBin.Infrastructure\\Repositories\\BinUnits\\BinUnitRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:00:27.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T10:49:21.692Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\Program.cs",
-              "RelativeDocumentMoniker": "SmartBin.Testing\\Program.cs",
-              "ToolTip": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\Program.cs",
-              "RelativeToolTip": "SmartBin.Testing\\Program.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAiwIgAAAAvAAAAAAAAAA==",
+              "Title": "ScadaHost.cs",
+              "DocumentMoniker": "D:\\TEST_SmartBin\\SmartBin.Api\\Hubs\\ScadaHost.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Hubs\\ScadaHost.cs",
+              "ToolTip": "D:\\TEST_SmartBin\\SmartBin.Api\\Hubs\\ScadaHost.cs",
+              "RelativeToolTip": "SmartBin.Api\\Hubs\\ScadaHost.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAkwDMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:36:01.46Z",
+              "WhenOpened": "2025-05-09T10:47:01.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBinRepository.cs",
+              "DocumentMoniker": "D:\\TEST_SmartBin\\SmartBin.Infrastructure\\Repositories\\Bins\\IBinRepository.cs",
+              "RelativeDocumentMoniker": "SmartBin.Infrastructure\\Repositories\\Bins\\IBinRepository.cs",
+              "ToolTip": "D:\\TEST_SmartBin\\SmartBin.Infrastructure\\Repositories\\Bins\\IBinRepository.cs",
+              "RelativeToolTip": "SmartBin.Infrastructure\\Repositories\\Bins\\IBinRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T10:11:51.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BinRepository.cs",
+              "DocumentMoniker": "D:\\TEST_SmartBin\\SmartBin.Infrastructure\\Repositories\\Bins\\BinRepository.cs",
+              "RelativeDocumentMoniker": "SmartBin.Infrastructure\\Repositories\\Bins\\BinRepository.cs",
+              "ToolTip": "D:\\TEST_SmartBin\\SmartBin.Infrastructure\\Repositories\\Bins\\BinRepository.cs",
+              "RelativeToolTip": "SmartBin.Infrastructure\\Repositories\\Bins\\BinRepository.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAwIAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:38:38.894Z",
               "EditorCaption": ""
             }
           ]

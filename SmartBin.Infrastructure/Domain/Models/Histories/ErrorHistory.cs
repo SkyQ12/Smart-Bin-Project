@@ -5,7 +5,7 @@ namespace SmartBin.Infrastructure.Domain.Models.Histories
     {
         public int Id { get; set; }
         public string BinUnitId {  get; set; }
-        public string ErrorName {  get; set; }
+        public int ErrorId {  get; set; }
         public DateTime TimeStamp { get; set; }
         public BinUnit BinUnit { get; set; }
 
@@ -15,11 +15,11 @@ namespace SmartBin.Infrastructure.Domain.Models.Histories
         {
         }
 
-        public ErrorHistory(int id, string binUnitId, string errorName, DateTime timeStamp, BinUnit binUnit)
+        public ErrorHistory(int id, string binUnitId, int errorName, DateTime timeStamp, BinUnit binUnit)
         {
             Id = id;
             BinUnitId = binUnitId;
-            ErrorName = errorName;
+            ErrorId = errorName;
             TimeStamp = timeStamp;
             BinUnit = binUnit;
         }

@@ -1,0 +1,1252 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "SmartBin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Admin/RegisterNewUserAdmin": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/RegisterUserAdminViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/RegisterNewWorkerAdmin": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/RegisterWorkerAdminViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/RegisterNewBinAdmin": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/RegisterBinAdminViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/GetUserAdmin": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AdminViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Admin/GetWorkerAdmin": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AdminViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Admin/GetBinAdmin": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AdminViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Bins/GetAllBins": {
+      "get": {
+        "tags": [
+          "Bins"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/BinViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Bins/GetBinById": {
+      "get": {
+        "tags": [
+          "Bins"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "binId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BinViewModel"
+            }
+          }
+        }
+      }
+    },
+    "/Bins/GetBinsForUser": {
+      "get": {
+        "tags": [
+          "Bins"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/BinForUserViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Bins/DeleteBinById": {
+      "delete": {
+        "tags": [
+          "Bins"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "binId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Bins/CreateNewBin": {
+      "post": {
+        "tags": [
+          "Bins"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AddNewBinViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Bins/UpdateBinById": {
+      "patch": {
+        "tags": [
+          "Bins"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UpdateBinViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/BinUnit/GetBinUnitById": {
+      "get": {
+        "tags": [
+          "BinUnit"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "binUnitId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BinUnitViewModel"
+            }
+          }
+        }
+      }
+    },
+    "/ErrorHistory/GetErrorHistoryByBinUnitId": {
+      "get": {
+        "tags": [
+          "ErrorHistory"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "binUnitId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ErrorHistoryViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ErrorHistory/GetErrorHistoriesByDateTime": {
+      "get": {
+        "tags": [
+          "ErrorHistory"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "timeStamp",
+            "type": "string",
+            "format": "date-time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ErrorHistoryViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ErrorHistory/GetErrorHistoriesFromDateTime1ToDateTime2": {
+      "get": {
+        "tags": [
+          "ErrorHistory"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "timeStamp1",
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "in": "query",
+            "name": "timeStamp2",
+            "type": "string",
+            "format": "date-time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ErrorHistoryViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ErrorHistory/DeleteErrorHistoriesByBinUnitId": {
+      "delete": {
+        "tags": [
+          "ErrorHistory"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "binUnitId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "/ErrorHistory/DeleteErrorHistoriesFromDateTime1ToDateTime2": {
+      "delete": {
+        "tags": [
+          "ErrorHistory"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "timeStamp1",
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "in": "query",
+            "name": "timeStamp2",
+            "type": "string",
+            "format": "date-time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "/OptimizeRoute/FindBestRoute": {
+      "post": {
+        "tags": [
+          "OptimizeRoute"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/OptimizeRouteRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/PointChange/GetPointChangedHistory": {
+      "get": {
+        "tags": [
+          "PointChange"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/PointChangeHistoryViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/PointChange/UpdatePoint": {
+      "patch": {
+        "tags": [
+          "PointChange"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UpdatePointViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/GetAllUsers": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/UserViewModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/User/GetUserById": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/UserViewModel"
+            }
+          }
+        }
+      }
+    },
+    "/User/GetUserByUserName": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userName",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/UserViewModel"
+            }
+          }
+        }
+      }
+    },
+    "/User/RegisterNewUser": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateNewUserViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/DeleteUserById": {
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/UpdateUserInfomation": {
+      "patch": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userName",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UpdateUserInfoViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/ChangePassword": {
+      "patch": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Id",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/PasswordChangeViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/ChangePasswordByUserName": {
+      "patch": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userName",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/PasswordChangeViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/Login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/LoginViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AddNewBinViewModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "longtitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "address": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "AdminViewModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "BinForUserViewModel": {
+      "type": "object",
+      "properties": {
+        "longtitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "address": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "BinUnitType": {
+      "format": "int32",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "type": "integer"
+    },
+    "BinUnitViewModel": {
+      "type": "object",
+      "properties": {
+        "binUnitId": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/definitions/BinUnitType"
+        },
+        "fault": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "level": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "compressCnt": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "fullCnt": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "status": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "flame": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "vibration": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "collectedHistories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CollectedHistoryViewModel"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "BinViewModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "longtitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "address": {
+          "type": "string"
+        },
+        "binUnits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/BinUnitViewModel"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "CollectedHistoryViewModel": {
+      "type": "object",
+      "properties": {
+        "collectedTime": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Coordinate": {
+      "type": "object",
+      "properties": {
+        "longitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "CreateNewUserViewModel": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "identificationNumber": {
+          "type": "string"
+        },
+        "sex": {
+          "type": "string"
+        },
+        "birthday": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "homeTown": {
+          "type": "string"
+        },
+        "issuanceDate": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "ErrorHistoryViewModel": {
+      "type": "object",
+      "properties": {
+        "binUnitId": {
+          "type": "string"
+        },
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "errorId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "timeStamp": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "LoginViewModel": {
+      "type": "object",
+      "properties": {
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "NodeViewModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "longtitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "fullness": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "OptimizeRouteRequest": {
+      "type": "object",
+      "properties": {
+        "startingPoint": {
+          "$ref": "#/definitions/Coordinate"
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/NodeViewModel"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "PasswordChangeViewModel": {
+      "type": "object",
+      "properties": {
+        "currentPassword": {
+          "type": "string"
+        },
+        "newPassword": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "PointChangeHistoryViewModel": {
+      "type": "object",
+      "properties": {
+        "oldPoint": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "newPoint": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "pointChangedTime": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "RegisterBinAdminViewModel": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "RegisterUserAdminViewModel": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "RegisterWorkerAdminViewModel": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "UpdateBinViewModel": {
+      "type": "object",
+      "properties": {
+        "longtitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "address": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "UpdatePointViewModel": {
+      "type": "object",
+      "properties": {
+        "point": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "UpdateUserInfoViewModel": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "identificationNumber": {
+          "type": "string"
+        },
+        "sex": {
+          "type": "string"
+        },
+        "birthday": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "homeTown": {
+          "type": "string"
+        },
+        "issuanceDate": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "UserViewModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "point": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "identificationNumber": {
+          "type": "string"
+        },
+        "sex": {
+          "type": "string"
+        },
+        "birthday": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "homeTown": {
+          "type": "string"
+        },
+        "issuanceDate": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

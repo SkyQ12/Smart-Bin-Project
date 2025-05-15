@@ -65,12 +65,12 @@ public UserService(IUserRepository userRepository, IUnitOfWork unitOfWork, IMapp
             }
         }
 
-        public async Task<bool> UpdateUserInfo(string userId, UpdateUserInfoViewModel updateViewModel)
+        public async Task<bool> UpdateUserInfo(string userName, UpdateUserInfoViewModel updateViewModel)
         {
-            var isExist = await _userRepository.IsExistUser(userId);
+            var isExist = await _userRepository.IsExistUser(userName);
             if (isExist)
             {
-                var user = await _userRepository.GetUserByIdAsync(userId);
+                var user = await _userRepository.GetUserByUserNameAsync(userName);
                 if (!string.IsNullOrEmpty(updateViewModel.Name)) 
                 {
                     user.Name = updateViewModel.Name;
@@ -137,7 +137,38 @@ public UserService(IUserRepository userRepository, IUnitOfWork unitOfWork, IMapp
             }
             else
             {
-                return "Not found user with this Id";
+                return "Not found user with this BinId";
+            }
+        }
+        public async Task<string> ChangePasswordByUserName(string userName, PasswordChangeViewModel viewModel)
+        {
+            var isExist = await _userRepository.IsExistUser(userName);
+            if (isExist)
+            {
+                var user = await _userRepository.GetUserByUserNameAsync(userName);
+                if (user.Password != viewModel.CurrentPassword)
+                {
+                    return "Current password is incorrect";
+                }
+                else if (string.IsNullOrEmpty(viewModel.NewPassword))
+                {
+                    return "The new password cannot be left blank";
+                }
+                else if (viewModel.CurrentPassword == viewModel.NewPassword)
+                {
+                    return "The new password cannot be the same as the current password";
+                }
+                else
+                {
+                    user.Password = viewModel.NewPassword;
+                    await _userRepository.UpdateUserInfoAsync(user);
+                    await _unitOfWork.CompleteAsync();
+                    return "Change password successfully!";
+                }
+            }
+            else
+            {
+                return "Not found user with this BinId";
             }
         }
 

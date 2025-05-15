@@ -10,5 +10,8 @@ namespace SmartBin.Infrastructure.Repositories.Bins
         public Task CreateNewBinUnitsAsync(List<BinUnit> binUnits);
         public Task<bool> IsBinAlreadyExist(string id);
         public Task UpdateBinAsync(Bin bin);
+        public Task DeleteQRByBinId(string binId);
+        public Task DeleteQRByQR(string qR,string binId);
+        public Task SaveMetricsToBinDatabase(string binId, string metricType, object value);
     }
 }

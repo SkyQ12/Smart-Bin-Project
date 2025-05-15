@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaJO15O/2UkuNfof90M+V+AAAAAACAAAAAAAQZgAAAAEAACAAAABwcWKntnhoclcGFkc4H2nt9dEqFyyhZqeicjuk1wxA1wAAAAAOgAAAAAIAACAAAACQ7lDjzRB+Tv0vkZa5nT0LRqjE22h0g1oXvxV2ubus7oAAAAChYuB6rvysrs7TWsuifBXcCsuthxKHFH+cyROxSLNvBXsP30/gNpS77TSeEHUERGTmOd1zTSmNAPZrtwS9YS2kWKLgIqX1vPa/ZN1B5lTWCIuoIzs7yIScfza62Tp6zzuKX6KdSKc8l7dK2Lrsy/8xeLKf+M9JrEid6+fxNGYLk0AAAAApmO1UvB56fOwYfpCNjEmdU/Z4YKY6VzIxxVqpw1PLmHDkwmOHDuxAQeSlSIa/9WNf8Qqc7Ay6RNQVkJGs1sjf</EncryptedPassword>
+    <History>True|2025-05-01T10:06:18.3693301Z||;True|2025-05-01T14:36:29.9211522+07:00||;True|2025-04-30T17:34:23.1151958+07:00||;True|2025-04-22T15:00:51.1300528+07:00||;True|2025-04-22T14:02:24.1290278+07:00||;True|2025-04-22T08:54:02.3321012+07:00||;True|2025-04-21T18:40:31.1065423+07:00||;True|2025-04-21T18:01:39.1840467+07:00||;True|2025-04-20T16:24:31.6481945+07:00||;False|2025-04-20T16:16:07.4360264+07:00||;True|2025-04-19T21:44:58.6745089+07:00||;True|2025-04-19T11:35:22.8836901+07:00||;True|2025-04-19T11:17:40.1927213+07:00||;True|2025-04-18T16:13:50.5775490+07:00||;True|2025-04-18T12:55:02.4615584+07:00||;True|2025-04-09T12:15:38.7265228+07:00||;True|2025-04-04T17:42:04.1493782+07:00||;True|2025-04-04T12:39:43.2155571+07:00||;True|2025-04-04T09:06:10.8646780+07:00||;True|2025-04-03T14:09:18.2070988+07:00||;True|2025-04-02T18:04:40.8687645+07:00||;True|2025-04-02T18:04:02.6147554+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=smartbinapidbserver.database.windows.net,1433;Initial Catalog=SmartBin.Api_db;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="Server=tcp:smartbinapidbserver.database.windows.net;Authentication=Active Directory Default;Database=SmartBin.Api_db" />
+  </ItemGroup>
+</Project>

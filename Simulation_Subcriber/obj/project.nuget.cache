@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fUnFwQs6OV8=",
+  "success": true,
+  "projectFilePath": "D:\\TEST_SmartBin\\Simulation_Subcriber\\Simulation_Subcriber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\mqttnet\\4.3.7.1207\\mqttnet.4.3.7.1207.nupkg.sha512"
+  ],
+  "logs": []
+}

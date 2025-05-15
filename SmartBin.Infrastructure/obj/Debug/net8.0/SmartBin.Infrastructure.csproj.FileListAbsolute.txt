@@ -57,3 +57,18 @@ C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Infr
 C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.pdb
 C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.genruntimeconfig.cache
 C:\Users\Admin\Downloads\SmartBinApi-master (1)\SmartBinApi-master\SmartBin.Infrastructure\obj\Debug\net8.0\ref\SmartBin.Infrastructure.dll
+D:\TEST_SmartBin\SmartBin.Infrastructure\bin\Debug\net8.0\SmartBin.Infrastructure.deps.json
+D:\TEST_SmartBin\SmartBin.Infrastructure\bin\Debug\net8.0\SmartBin.Infrastructure.runtimeconfig.json
+D:\TEST_SmartBin\SmartBin.Infrastructure\bin\Debug\net8.0\SmartBin.Infrastructure.dll
+D:\TEST_SmartBin\SmartBin.Infrastructure\bin\Debug\net8.0\SmartBin.Infrastructure.pdb
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.csproj.AssemblyReference.cache
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.AssemblyInfoInputs.cache
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.AssemblyInfo.cs
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.csproj.CoreCompileInputs.cache
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.sourcelink.json
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.dll
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\refint\SmartBin.Infrastructure.dll
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.pdb
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\SmartBin.Infrastructure.genruntimeconfig.cache
+D:\TEST_SmartBin\SmartBin.Infrastructure\obj\Debug\net8.0\ref\SmartBin.Infrastructure.dll

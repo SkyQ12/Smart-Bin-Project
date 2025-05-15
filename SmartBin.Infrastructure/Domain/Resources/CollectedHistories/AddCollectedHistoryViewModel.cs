@@ -1,15 +1,41 @@
 ﻿
 namespace SmartBin.Infrastructure.Domain.Resources.CollectedHistories
 {
+    [DataContract]
     public class AddCollectedHistoryViewModel
     {
-        public string BinUnitId {  get; set; }
-        public DateTime CollectedTime {  get; set; }
+        [DataMember]
+        public string BinId { get; set; }
 
-        public AddCollectedHistoryViewModel(string binUnitId, DateTime collectedTime)
+        [DataMember]
+        public string? BinType { get; set; }
+
+        [DataMember]
+        public string Street { get; set; }
+
+        [DataMember]
+        public string District { get; set; }
+
+        [DataMember]
+        public DateTime CollectedTime { get; set; }
+
+        [IgnoreDataMember]
+        public string BinUnitId => BinId + (BinType switch
         {
-            BinUnitId = binUnitId;
+            "Thực phẩm" => "OR",
+            "Tái chế" => "RI",
+            "Không tái chế" => "NI",
+            _ => ""
+        });
+
+        public AddCollectedHistoryViewModel(string binId, string? binType, string street, string district, DateTime collectedTime)
+        {
+            BinId = binId;
+            BinType = binType;
+            Street = street;
+            District = district;
             CollectedTime = collectedTime;
         }
     }
+
 }

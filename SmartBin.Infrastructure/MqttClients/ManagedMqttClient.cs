@@ -1,5 +1,4 @@
-﻿
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 using MQTTnet.Client;
 using MQTTnet;
 using System.Timers;
@@ -56,24 +55,11 @@ namespace SmartBin.Infrastructure.MqttClients
             }
             else
             {
-                /*foreach (var topic in SubscribeTopics)
-                {
-                    await _mqttClient.SubscribeAsync(topic);
-                }*/
-                await _mqttClient.SubscribeAsync("Smart_bin/#");
-                Console.WriteLine("✅ Đã subscribe vào Smart_bin/#");
-
-                Console.WriteLine("Connected");
-
-                ////
-                Console.WriteLine("📌 Danh sách topic đăng ký:");
                 foreach (var topic in SubscribeTopics)
                 {
-                    Console.WriteLine($"📌 Đăng ký topic: {topic}");
                     await _mqttClient.SubscribeAsync(topic);
                 }
-                ////
-
+                Console.WriteLine("Connected");
             }
         }
 
@@ -93,7 +79,6 @@ namespace SmartBin.Infrastructure.MqttClients
                 .Build();
 
             var result = await _mqttClient.SubscribeAsync(subscribeOptions);
-
             foreach (var subscription in result.Items)
             {
                 if (subscription.ResultCode != MqttClientSubscribeResultCode.GrantedQoS0 &&
@@ -116,18 +101,8 @@ namespace SmartBin.Infrastructure.MqttClients
         }
         private async Task OnMessageReceived(MqttApplicationMessageReceivedEventArgs arg)
         {
-            /*var topic = arg.ApplicationMessage.Topic;
-            var payload = arg.ApplicationMessage.ConvertPayloadToString();
-
-            if (MessageReceived is not null)
-            {
-                await MessageReceived(new MqttMessage(topic, payload));
-            }*/
-
             var topic = arg.ApplicationMessage.Topic;
             var payload = arg.ApplicationMessage.ConvertPayloadToString();
-
-            Console.WriteLine($"📩 Nhận tin nhắn - Topic: {topic} | Payload: {payload}");
 
             if (MessageReceived is not null)
             {

@@ -1,4 +1,9 @@
 ﻿
+using SmartBin.Infrastructure.Repositories.CollectedHistories;
+using SmartBin.Infrastructure.Repositories.ErrorHistories;
+using SmartBin.Infrastructure.Services.CollectedHistory;
+using SmartBin.Infrastructure.Services.ErrorHistories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -28,10 +33,28 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("SmartBin.Api"))
 );
 
+/***********************************************
+builder.Services.AddHostedService<MqttBackgroundService>();
+***********************************************/
+
+
+// /////////////////
+
+
+
+
+
 builder.Services.AddHostedService<ScadaHost>();
+
+
+
 builder.Services.Configure<MqttOptions>(builder.Configuration.GetSection("MqttOptions"));
 builder.Services.AddSingleton<ManagedMqttClient>();
 builder.Services.AddSingleton<MqttBuffer>();
+
+
+
+
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IUserService, UserService>();
@@ -45,6 +68,12 @@ builder.Services.AddScoped<IBinUnitRepository, BinUnitRepository>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
 builder.Services.AddScoped<IOptimizeRouteService, OptimizeRouteService>();
+builder.Services.AddScoped<IErrorHistoryService, ErrorHistoryService>();
+builder.Services.AddScoped<IErrorHistoryRepository, ErrorHistoryRepository>();
+builder.Services.AddScoped<ICollectedHistoryService, CollectedHistoryService>();
+builder.Services.AddScoped<ICollectedHistoryRepository, CollectedHistoryRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 
 builder.Services.AddAutoMapper(typeof(ModelToViewModelProfile));
 builder.Services.AddAutoMapper(typeof(ViewModelToModelProfile));

@@ -58,9 +58,9 @@ namespace SmartBin.Api.Controllers
         }
         [HttpPatch]
         [Route("UpdateUserInfomation")]
-        public async Task<IActionResult> UpdateUserInfomation([FromQuery] string userId,  [FromBody] UpdateUserInfoViewModel updateUserInfo)
+        public async Task<IActionResult> UpdateUserInfomation([FromQuery] string userName,  [FromBody] UpdateUserInfoViewModel updateUserInfo)
         {
-            var isSuccess = await _userService.UpdateUserInfo(userId, updateUserInfo);
+            var isSuccess = await _userService.UpdateUserInfo(userName, updateUserInfo);
             if (isSuccess)
             {
                 return new OkObjectResult("Updated user infomation successfully.");
@@ -77,6 +77,15 @@ namespace SmartBin.Api.Controllers
             var result = await _userService.ChangePassword(Id, changePassword);
             return new OkObjectResult(result);
         }
+
+        [HttpPatch]
+        [Route("ChangePasswordByUserName")]
+        public async Task<IActionResult> ChangePasswordByUserName([FromQuery] string userName, [FromBody] PasswordChangeViewModel changePassword)
+        {
+            var result = await _userService.ChangePasswordByUserName(userName, changePassword);
+            return new OkObjectResult(result);
+        }
+
         [HttpPost]
         [AllowAnonymous]
         [Route("Login")]

@@ -13,11 +13,11 @@ namespace SmartBin.Infrastructure.MqttClients
 
         public async Task Update(TagChangedNotification tagChangedNotification)
         {
-            var isExist = TagChangedForAdmin.FirstOrDefault(x => x.Name == tagChangedNotification.Name && x.BinUnitId == tagChangedNotification.BinUnitId && x.BinId == tagChangedNotification.BinId);
+            var isExist = TagChangedForAdmin.FirstOrDefault(x => x.Id == tagChangedNotification.Id && x.BinUnitId == tagChangedNotification.BinUnitId && x.BinId == tagChangedNotification.BinId);
             if (isExist is null)
             {
                 TagChangedForAdmin.Add(tagChangedNotification);
-                if(tagChangedNotification.Name == "FullLevel")
+                if(tagChangedNotification.Id >= 80)
                 {
                     TagChangedForUser.Add(tagChangedNotification);
                 }

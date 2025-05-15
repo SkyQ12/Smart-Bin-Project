@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "tf71dAPeJWYCNwPpG8+h/w9wD0T0iCay5N46DlZFx0I=",
+  "Hash": "2+Pjz1EfXLiv/Hz6dCJK3EigfFN7pEACFmD54pbKECI=",
   "Source": "SmartBin.Api",
   "BasePath": "_content/SmartBin.Api",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

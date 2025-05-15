@@ -1,0 +1,8 @@
+{
+  "MqttOptions": {
+    "CommunicationTimeout": 30,
+    "Host": "20.41.104.186",
+    "Port": 1883,
+    "KeepAliveInterval": 60
+  }
+}

@@ -10,8 +10,11 @@ namespace SmartBin.Infrastructure.Domain.Mapping
             CreateMap<PointChangedHistory, PointChangeHistoryViewModel>();
             CreateMap<Bin, BinViewModel>();
             CreateMap<Bin, BinForUserViewModel>();
-            CreateMap<BinUnit, BinUnitViewModel>();
+            CreateMap<BinUnit, BinUnitViewModel>()
+                .ForMember(dest => dest.CollectedHistories, opt => opt.MapFrom(src => src.CollectedHistories));
+
             CreateMap<CollectedHistory, CollectedHistoryViewModel>();
+            CreateMap<ErrorHistory, ErrorHistoryViewModel>();
         }
     }
 }

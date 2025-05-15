@@ -96,5 +96,23 @@ namespace SmartBin.Infrastructure.Services.Bins
             var result = _mapper.Map<List<Bin>, List<BinForUserViewModel>>(source);
             return result;
         }
+
+        
+        public async Task<bool> DeleteQRByBinId(string binId)
+        {
+            await _binRepository.DeleteQRByBinId(binId);
+            return await _unitOfWork.CompleteAsync();
+        }
+        
+        public async Task<bool> DeleteQRByQR(string qR, string binId)
+        {
+            await _binRepository.DeleteQRByQR(qR, binId);
+            return await _unitOfWork.CompleteAsync();
+        }
+        public async Task SaveMetricsToBinDatabase(string binId, string metricType, object value)
+        {
+            await _binRepository.SaveMetricsToBinDatabase(binId, metricType, value);
+            await _unitOfWork.CompleteAsync();
+        }
     }
 }

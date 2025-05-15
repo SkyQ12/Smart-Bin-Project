@@ -1,5 +1,9 @@
 ﻿
 using System;
+using System.Collections.Generic;
+using SmartBin.Infrastructure.Repositories.BinUnits;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace SmartBin.Host.Hosting
 {
@@ -23,7 +27,7 @@ namespace SmartBin.Host.Hosting
         {
             _mqttClient.MessageReceived += OnMqttClientMessageReceived;
             await _mqttClient.ConnectAsync();
-            await _mqttClient.Subscribe("SMART_BIN/+/+");
+            await _mqttClient.Subscribe("Smart_bin/Test/+/+/+/+");
         }
         private async Task OnMqttClientMessageReceived(MqttMessage arg)
         {
@@ -35,29 +39,81 @@ namespace SmartBin.Host.Hosting
             }
 
             string[] splitTopic = topic.Split('/');
-            string binId = splitTopic[1];
+            string unsplit_Id = splitTopic[3];
+            string Id = unsplit_Id.Split('_')[1];
+            string binId = "BIN" + Id;
             string binUnitId = "";
-            switch (splitTopic[2])
+            string metricType = "";
+
+            switch (unsplit_Id.Split('_')[2])
             {
-                case "Status":
-                    binUnitId = "";
-                    break;
-                case "Organic":
+                case "Food":
                     binUnitId = binId + "OR";
                     break;
-                case "RecyclableInorganic":
+                case "Recycle":
                     binUnitId = binId + "RI";
                     break;
-                case "NonRecyclableInorganic":
+                case "Other":
                     binUnitId = binId + "NI";
                     break;
             }
 
-            var metrics = JsonConvert.DeserializeObject<List<TagChangedNotification>>(payloadMessage);
-            if (metrics is null)
+            switch (splitTopic[5])
             {
-                return;
+                case "Level":
+                    metricType = "Level";
+                    break;
+                case "Fault":
+                    metricType = "Fault";
+                    break;
+                case "Compress_cnt":
+                    metricType = "CompressCnt";
+                    break;
+                case "Full_cnt":
+                    metricType = "FullCnt";
+                    break;
+                case "Status":
+                    metricType = "Status";
+                    break;
+                case "Flame":
+                    metricType = "Flame";
+                    break;
+                case "Vibration":
+                    metricType = "Vibration";
+                    break;
             }
+
+            List<TagChangedNotification> metrics;
+            if (payloadMessage.Trim().StartsWith("{"))
+            {
+                // Nếu payload là một object đơn
+                var singleMetric = JsonConvert.DeserializeObject<TagChangedNotification>(payloadMessage);
+                metrics = new List<TagChangedNotification> { singleMetric };
+            }
+            else
+            {
+                // Nếu payload là một danh sách JSON
+                metrics = JsonConvert.DeserializeObject<List<TagChangedNotification>>(payloadMessage);
+            }
+
+
+            foreach (var metric in metrics)
+            {
+                Console.WriteLine($" ID: {metric.Id}, Value: {metric.Value}, Timestamp: {metric.Timestamp}");
+                metric.BinId = binId;
+                metric.BinUnitId = binUnitId;
+
+                if (metric != null && metric.Id != 0)
+                {
+                    using (IServiceScope scope = _serviceScopeFactory.CreateScope())
+                    {
+                        var binUnitService = scope.ServiceProvider.GetRequiredService<IBinUnitRepository>();
+                        await binUnitService.SaveMetricsToBinUnitDatabase(binUnitId, metricType, metric.Value);
+                    }
+                }
+            }
+
+            /*
             foreach (var metric in metrics)
             {
                 metric.BinId = binId;
@@ -80,6 +136,8 @@ namespace SmartBin.Host.Hosting
                     }
                 }
             }
+            */
+
         }
     }
 }

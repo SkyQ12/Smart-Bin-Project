@@ -64,5 +64,22 @@ namespace SmartBin.Api.Controllers
                 return new OkObjectResult("Bin can not be found with this id!");
             }
         }
+
+        
+        [HttpDelete]
+        [Route("DeleteQRByBinId")]
+        public async Task<IActionResult> DeleteQRByBinId([FromQuery] string binId)
+        {
+            await _binService.DeleteQRByBinId(binId);
+            return new OkObjectResult("Deleted QR code successfully!");
+        }
+        [HttpDelete]
+        [Route("DeleteQRByQR")]
+        public async Task<IActionResult> DeleteQRByQR([FromQuery] string qR, [FromQuery] string binId)
+        {
+            await _binService.DeleteQRByQR(qR, binId);
+            return new OkObjectResult("Deleted QR code successfully!");
+        }
+        
     }
 }

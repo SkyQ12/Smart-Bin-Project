@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\SmartBin.Testing.csproj": {}
+    "D:\\TEST_SmartBin\\SmartBin.Testing\\SmartBin.Testing.csproj": {}
   },
   "projects": {
-    "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\SmartBin.Testing.csproj": {
+    "D:\\TEST_SmartBin\\SmartBin.Testing\\SmartBin.Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\SmartBin.Testing.csproj",
+        "projectUniqueName": "D:\\TEST_SmartBin\\SmartBin.Testing\\SmartBin.Testing.csproj",
         "projectName": "SmartBin.Testing",
-        "projectPath": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\SmartBin.Testing.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\FABLAB\\SmartBinApi-master\\SmartBinApi-master\\SmartBin.Testing\\obj\\",
+        "projectPath": "D:\\TEST_SmartBin\\SmartBin.Testing\\SmartBin.Testing.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\TEST_SmartBin\\SmartBin.Testing\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +39,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +49,44 @@
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.7.1207, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -75,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

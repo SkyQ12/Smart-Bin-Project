@@ -1,138 +1,100 @@
 ﻿using MQTTnet.Client;
 using MQTTnet;
 using Newtonsoft.Json;
+using System;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
+
 
 class Program
 {
     static async Task Main(string[] args)
     {
         var options = new MqttClientOptionsBuilder()
-                            .WithClientId(string.Empty)
+                            .WithClientId(Guid.NewGuid().ToString())
                             .WithTcpServer("20.41.104.186", 1883)
                             .WithTimeout(TimeSpan.FromSeconds(30))
                             .WithKeepAlivePeriod(TimeSpan.FromSeconds(60))
                             .Build();
 
         var mqttClient = new MqttFactory().CreateMqttClient();
-        await mqttClient.ConnectAsync(options);
 
-        Console.WriteLine("Connected MQTT broker!");
+        // Đăng ký sự kiện nhận tin nhắn
+        mqttClient.ApplicationMessageReceivedAsync += async e =>
+        {
+            string payload = Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
+
+            try
+            {
+                // Bỏ qua dữ liệu cũ có chứa "name" (ví dụ: Battery, Connected,...)
+                if (payload.Contains("\"name\""))
+                {
+                    return;
+                }
+
+                // Deserialize JSON đúng định dạng mong muốn
+                var data = JsonConvert.DeserializeObject<PayloadData>(payload);
+                if (data != null && data.Id != 0)
+                {
+                    Console.WriteLine($"[✔] ID: {data.Id}, Value: {data.Value}, Timestamp: {data.Timestamp}");
+
+                    // Lưu vào database
+                    await SaveToDatabase(data);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("⚠ Lỗi khi xử lý dữ liệu: " + ex.Message);
+            }
+        };
+
+        await mqttClient.ConnectAsync(options);
+        Console.WriteLine("[✔] Connected to MQTT broker!");
+
+        string topicToSubscribe = "Smart_bin/Test/Bin_4/Bin_4_Food/Metric/Level";
+        await mqttClient.SubscribeAsync(topicToSubscribe);
+        Console.WriteLine($"[✔] Subscribed to topic: {topicToSubscribe}");
+
         while (true)
         {
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-            if (keyInfo.Key == ConsoleKey.A)
+            if (keyInfo.Key == ConsoleKey.Q)
             {
-                //Mô phỏng cập nhật dữ liệu
-                for (int i = 1; i <= 10; i++)
-                {
-                    string topic = "SMART_BIN/BIN" + i.ToString("00") + "/Status";
-                    string payload = StatusPayloadMessage();
-                    var message = new MqttApplicationMessageBuilder()
-                        .WithTopic(topic)
-                        .WithPayload(payload)
-                        .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)
-                        .WithRetainFlag(true)
-                        .Build();
-
-                    await mqttClient.PublishAsync(message);
-                    Console.WriteLine(topic + " " + payload);
-                }
-            }
-            else if (keyInfo.Key == ConsoleKey.S)
-            {
-                for (int i = 1; i <= 10; i++)
-                {
-                    string topic = "SMART_BIN/BIN" + i.ToString("00") + "/Organic";
-                    string payload = BinUnitPayloadMessage();
-                    var message = new MqttApplicationMessageBuilder()
-                        .WithTopic(topic)
-                        .WithPayload(payload)
-                        .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)
-                        .WithRetainFlag(true)
-                        .Build();
-
-                    await mqttClient.PublishAsync(message);
-                    Console.WriteLine(topic + " " + payload);
-                }
-            }
-            else if (keyInfo.Key == ConsoleKey.D)
-            {
-                for (int i = 1; i <= 10; i++)
-                {
-                    string topic = "SMART_BIN/BIN" + i.ToString("00") + "/RecyclableInorganic";
-                    string payload = BinUnitPayloadMessage();
-                    var message = new MqttApplicationMessageBuilder()
-                        .WithTopic(topic)
-                        .WithPayload(payload)
-                        .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)
-                        .WithRetainFlag(true)
-                        .Build();
-
-                    await mqttClient.PublishAsync(message);
-                    Console.WriteLine(topic + " " + payload);
-                }
-            }
-            else if (keyInfo.Key == ConsoleKey.F)
-            {
-                for (int i = 1; i <= 10; i++)
-                {
-                    string topic = "SMART_BIN/BIN" + i.ToString("00") + "/NonRecyclableInorganic";
-                    string payload = BinUnitPayloadMessage();
-                    var message = new MqttApplicationMessageBuilder()
-                        .WithTopic(topic)
-                        .WithPayload(payload)
-                        .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)
-                        .WithRetainFlag(true)
-                        .Build();
-
-                    await mqttClient.PublishAsync(message);
-                    Console.WriteLine(topic + " " + payload);
-                }
+                Console.WriteLine("[✔] Exiting...");
+                break;
             }
         }
     }
-    static string StatusPayloadMessage()
+    
+    // ✅ Đưa hàm SaveToDatabase ra ngoài
+    static async Task SaveToDatabase(PayloadData data)
     {
-        Random random = new Random();
+        string connectionString = "Server=desktop-hs403t0\\sqlexpress;Database=TestSmartBin;Trusted_Connection=True;TrustServerCertificate=True;";
 
-        double battery = random.Next(0, 100) + random.NextDouble();
-        string isConnected = "False";
-
-        var sensorDataList = new List<PayloadData>
+        using (SqlConnection conn = new SqlConnection(connectionString))
         {
-            new PayloadData {name = "Battery",value = battery.ToString("F2"),timestamp = DateTime.Now.ToString("HH:mm:ss")},
-            new PayloadData {name = "Connected",value = isConnected.ToString(),timestamp = DateTime.Now.ToString("HH:mm:ss")}
-        };
+            await conn.OpenAsync();
 
-        string jsonPayload = JsonConvert.SerializeObject(sensorDataList);
-        return jsonPayload;
+            string query = "INSERT INTO SensorData (Value) VALUES (@Value)";
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                
+                cmd.Parameters.AddWithValue("@Value", data.Value);
+                
 
-    }
-    static string BinUnitPayloadMessage()
-    {
-        Random random = new Random();
-
-        string fullLevel = random.Next(0, 100).ToString();
-        string engineError = "False";
-        var lastcollection = DateTime.Now.AddHours(-1);
-        bool isConnected = false;
-
-        var sensorDataList = new List<PayloadData>
-        {
-            new PayloadData {name = "FullLevel",value = fullLevel,timestamp = DateTime.Now.ToString("HH:mm:ss")},
-            new PayloadData {name = "EngineError",value = engineError,timestamp = DateTime.Now.ToString("HH:mm:ss")},
-            new PayloadData {name = "LastCollection",value = lastcollection.ToString(),timestamp = DateTime.Now.ToString("HH:mm:ss")},
-            new PayloadData {name = "IsConnected",value = isConnected.ToString(),timestamp = DateTime.Now.ToString("HH:mm:ss")}
-        };
-
-        string jsonPayload = JsonConvert.SerializeObject(sensorDataList);
-        return jsonPayload;
-
+                await cmd.ExecuteNonQueryAsync();
+                Console.WriteLine("✅ Data saved to database.");
+            }
+        }
     }
 }
-public class PayloadData
-{
-    public string name { get; set; } = "";
-    public string value { get; set; } = "";
-    public string timestamp { get; set; } = "";
-}
+
+    // ✅ Class dữ liệu
+    public class PayloadData
+    {
+        public int Id { get; set; }
+        public int Value { get; set; }
+        public DateTime Timestamp { get; set; }
+    }
+

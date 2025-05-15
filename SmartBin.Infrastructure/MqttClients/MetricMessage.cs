@@ -3,13 +3,13 @@ namespace SmartBin.Infrastructure.MqttClients
 {
     public class MetricMessage
     {
-        public string Name { get; set; }
+        public string Id { get; set; }
         public object Value { get; set; }
         public DateTime Timestamp { get; set; }
 
-        public MetricMessage(string name, object value, DateTime timestamp)
+        public MetricMessage(string id, object value, DateTime timestamp)
         {
-            Name = name;
+            Id = id;
             Value = value;
             Timestamp = timestamp;
         }

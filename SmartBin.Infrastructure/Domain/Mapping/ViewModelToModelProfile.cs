@@ -14,6 +14,7 @@ namespace SmartBin.Infrastructure.Domain.Mapping
             CreateMap<RegisterUserAdminViewModel, User>();
             CreateMap<RegisterWorkerAdminViewModel, User>();
             CreateMap<RegisterBinAdminViewModel, User>();
+            CreateMap<ErrorHistoryViewModel, ErrorHistory>();
         }
     }
 }
