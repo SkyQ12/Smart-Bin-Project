@@ -18,7 +18,10 @@ namespace SmartBin.Api.Migrations
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Longtitude = table.Column<double>(type: "float", nullable: false),
                     Latitude = table.Column<double>(type: "float", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Battery = table.Column<int>(type: "int", nullable: true),
+                    Internet = table.Column<int>(type: "int", nullable: true),
+                    Qr = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -68,7 +71,7 @@ namespace SmartBin.Api.Migrations
                         name: "FK_BinUnits_Bins_BinId",
                         column: x => x.BinId,
                         principalTable: "Bins",
-                        principalColumn: "BinId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -88,7 +91,7 @@ namespace SmartBin.Api.Migrations
                         name: "FK_LoginHistories_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
-                        principalColumn: "BinId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -110,7 +113,7 @@ namespace SmartBin.Api.Migrations
                         name: "FK_PointChangedHistories_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
-                        principalColumn: "BinId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -120,7 +123,11 @@ namespace SmartBin.Api.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    BinUnitId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    BinId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    BinUnitId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    BinType = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Street = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    District = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CollectedTime = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -128,6 +135,27 @@ namespace SmartBin.Api.Migrations
                     table.PrimaryKey("PK_CollectedHistories", x => x.Id);
                     table.ForeignKey(
                         name: "FK_CollectedHistories_BinUnits_BinUnitId",
+                        column: x => x.BinUnitId,
+                        principalTable: "BinUnits",
+                        principalColumn: "BinUnitId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ErrorHistories",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    BinUnitId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ErrorId = table.Column<int>(type: "int", nullable: false),
+                    TimeStamp = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ErrorHistories", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ErrorHistories_BinUnits_BinUnitId",
                         column: x => x.BinUnitId,
                         principalTable: "BinUnits",
                         principalColumn: "BinUnitId",
@@ -145,6 +173,11 @@ namespace SmartBin.Api.Migrations
                 column: "BinUnitId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_ErrorHistories_BinUnitId",
+                table: "ErrorHistories",
+                column: "BinUnitId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_LoginHistories_UserId",
                 table: "LoginHistories",
                 column: "UserId");
@@ -153,25 +186,16 @@ namespace SmartBin.Api.Migrations
                 name: "IX_PointChangedHistories_UserId",
                 table: "PointChangedHistories",
                 column: "UserId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_ErrorHistories_BinUnits_BinUnitId",
-                table: "ErrorHistories",
-                column: "BinUnitId",
-                principalTable: "BinUnits",
-                principalColumn: "BinUnitId",
-                onDelete: ReferentialAction.Cascade);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_ErrorHistories_BinUnits_BinUnitId",
-                table: "ErrorHistories");
-
             migrationBuilder.DropTable(
                 name: "CollectedHistories");
+
+            migrationBuilder.DropTable(
+                name: "ErrorHistories");
 
             migrationBuilder.DropTable(
                 name: "LoginHistories");

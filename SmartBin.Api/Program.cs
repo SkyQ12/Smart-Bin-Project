@@ -7,7 +7,7 @@ using SmartBin.Infrastructure.Services.ErrorHistories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+// code 15/5 6:04
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

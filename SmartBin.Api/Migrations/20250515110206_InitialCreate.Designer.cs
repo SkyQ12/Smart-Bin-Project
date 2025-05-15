@@ -12,7 +12,7 @@ using SmartBin.Infrastructure.Domain.Context;
 namespace SmartBin.Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250403115642_InitialCreate")]
+    [Migration("20250515110206_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -20,19 +20,25 @@ namespace SmartBin.Api.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("SmartBin.Infrastructure.Domain.Models.Bin.Bin", b =>
                 {
-                    b.Property<string>("BinId")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Battery")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Internet")
+                        .HasColumnType("int");
 
                     b.Property<double>("Latitude")
                         .HasColumnType("float");
@@ -40,7 +46,10 @@ namespace SmartBin.Api.Migrations
                     b.Property<double>("Longtitude")
                         .HasColumnType("float");
 
-                    b.HasKey("BinId");
+                    b.Property<string>("Qr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
 
                     b.ToTable("Bins");
                 });
@@ -87,20 +96,33 @@ namespace SmartBin.Api.Migrations
 
             modelBuilder.Entity("SmartBin.Infrastructure.Domain.Models.Histories.CollectedHistory", b =>
                 {
-                    b.Property<int>("BinId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BinId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BinId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BinType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("BinUnitId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("CollectedTime")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("BinId");
+                    b.Property<string>("District")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Street")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("BinUnitId");
 
@@ -109,11 +131,11 @@ namespace SmartBin.Api.Migrations
 
             modelBuilder.Entity("SmartBin.Infrastructure.Domain.Models.Histories.ErrorHistory", b =>
                 {
-                    b.Property<int>("BinId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BinId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("BinUnitId")
                         .IsRequired()
@@ -125,7 +147,7 @@ namespace SmartBin.Api.Migrations
                     b.Property<DateTime>("TimeStamp")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("BinId");
+                    b.HasKey("Id");
 
                     b.HasIndex("BinUnitId");
 
@@ -134,11 +156,11 @@ namespace SmartBin.Api.Migrations
 
             modelBuilder.Entity("SmartBin.Infrastructure.Domain.Models.Histories.LoginHistory", b =>
                 {
-                    b.Property<int>("BinId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BinId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("LoginTime")
                         .HasColumnType("datetime2");
@@ -147,7 +169,7 @@ namespace SmartBin.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("BinId");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
@@ -156,11 +178,11 @@ namespace SmartBin.Api.Migrations
 
             modelBuilder.Entity("SmartBin.Infrastructure.Domain.Models.Histories.PointChangedHistory", b =>
                 {
-                    b.Property<int>("BinId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BinId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("NewPoint")
                         .HasColumnType("int");
@@ -175,7 +197,7 @@ namespace SmartBin.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("BinId");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
@@ -184,7 +206,7 @@ namespace SmartBin.Api.Migrations
 
             modelBuilder.Entity("SmartBin.Infrastructure.Domain.Models.Person.User", b =>
                 {
-                    b.Property<string>("BinId")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("Birthday")
@@ -227,7 +249,7 @@ namespace SmartBin.Api.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.HasKey("BinId");
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
                 });
@@ -248,8 +270,7 @@ namespace SmartBin.Api.Migrations
                     b.HasOne("SmartBin.Infrastructure.Domain.Models.Bin.BinUnit", "BinUnit")
                         .WithMany("CollectedHistories")
                         .HasForeignKey("BinUnitId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("BinUnit");
                 });
